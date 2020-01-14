@@ -1,27 +1,34 @@
-# Portafolio
+# Portfolio personal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.9.
+Este repositorio contiene los archivos de mi portfolio personal.
 
-## Development server
+## Lenguajes
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Los lenguajes utilizados fueron:
 
-## Code scaffolding
+* TypeScript
+* HTML
+* CSS
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologias utilizadas
 
-## Build
+<table>
+    <tbody>
+        <tr>
+            <td><img src="https://raw.githubusercontent.com/1caruxx/Final_laboratorio_y_programacion_III/master/Z._img/vs.ico" width="20px" height="20px"/></td>
+            <td><a href="https://code.visualstudio.com/">Visual Studio Code</a></td>
+        </tr>
+        <tr>
+            <td><img src="https://raw.githubusercontent.com/1caruxx/Desarollo_web/master/icon.png" width="20px" height="20px"/></td>
+            <td><a href="https://angular.io/"><b>Angular</b></a></td>
+        </tr>
+        <tr>
+            <td><img src="https://raw.githubusercontent.com/1caruxx/Final_laboratorio_y_programacion_III/master/Z._img/filezilla.png" width="20px" height="20px"/></td>
+            <td><a href="https://filezilla-project.org/">Filezilla</a></td>
+        </tr>
+    </tbody>
+</table>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Autor
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+* Fernando Lareu - [FHLareu](https://github.com/1caruxx)
