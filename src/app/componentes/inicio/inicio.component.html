@@ -1,0 +1,104 @@
+<div class="background">
+  <img src="../../../assets/img/background.jpg" alt="">
+</div>
+
+<header>
+  <img [ngClass]="{'hero':true,'difuminado':animacion}" [src]="imagen" alt="ups" />
+  <div class="sombreado"></div>
+  <div class="container-present">
+    <img src="../../../assets/img/perfil.jpg" alt="">
+
+    <span>Fernando Lareu</span>
+    <span class="subtitulo">Desarollador de aplicaciones para escritorio, dispositivos móbiles, Web.</span>
+    <button (click)="Redireccionar('https://github.com/FHLareu')" matTooltip="Github">
+      <div></div>
+      <i class="fab fa-github"></i>
+    </button>
+  </div>
+</header>
+
+<h1>
+  <span>Perfil personal</span>
+</h1>
+
+<section>
+
+  Soy un estudiante de programación en la universidad tecnológica nacional que busca adquirir experiencia y
+  desarollarse en el ámbito laboral. Tengo conocimientos en lenguajes tales como C, C#, JavaScript, HTML, CSS, PHP y
+  frameworks como Ionic y Angular. En mi Github, aparecen distintos ejemplos de lo trabajado con las herramientas
+  anteriormente mencionadas ya sea en la cursada o de forma autodidacta.<br />
+  Descubrir nuevas tecnologías así como especializarme en las ya conocidas es algo que siempre despierta mi interés.
+
+</section>
+
+<div class="row">
+  <div class="column">
+    <img src="../../../assets/img/clock.png" alt="" />
+    <span>Disponibilidad horaria full time.</span>
+  </div>
+  <div class="column column-center">
+    <img src="../../../assets/img/idea.png" alt="" />
+    <span>Entusiasmo por aprender y trabajar en equipo.</span>
+  </div>
+  <div class="column">
+    <img src="../../../assets/img/tie.png" alt="" />
+    <span>Buena presentación.</span>
+
+  </div>
+</div>
+
+<h1>
+  <span>
+    Páginas de ejemplo
+  </span>
+</h1>
+
+<div class="imagenes">
+
+  <div (click)="Redireccionar('https://sala-de-juegos.000webhostapp.com/')" matTooltip="Visitar">
+    <img src="../../../assets/img/page1.JPG" alt="" />
+  </div>
+
+  <div (click)="Redireccionar('https://fhlareu.github.io/domar-la-web/')" matTooltip="Visitar">
+    <img src="../../../assets/img/page2.JPG" alt="" />
+  </div>
+
+</div>
+
+<footer>
+
+  <div>
+    <img src="../../../assets/img/correo.png" alt="Correo">
+    <span>Correo electrónico: fernandohugolareu@hotmail.com</span>
+  </div>
+
+  <div>
+    <img src="../../../assets/img/telefono.png" alt="Telefono">
+    <span>Teléfono: 1127193926</span>
+  </div>
+
+  <div>
+    <img src="../../../assets/img/linkedin.png" alt="Telefono">
+    <span>LinkedIn: <a href="https://www.linkedin.com/in/fernando-lareu/"
+        target="_blank">linkedin.com/in/fernando-lareu/</a>
+    </span>
+  </div>
+
+  <!-- <h1><span>Medios de contacto</span></h1>
+
+  <div class="contacto">
+    <img src="../../../assets/img/correo.png" alt="Correo">
+    Correo electrónico: fernandohugolareu@hotmail.com
+  </div>
+
+  <div class="contacto">
+    <img src="../../../assets/img/telefono.png" alt="Telefono">
+    Teléfono: 1127193926
+  </div>
+
+  <div class="contacto">
+    <img src="../../../assets/img/linkedin.png" alt="Telefono">
+    LinkedIn: <a href="https://www.linkedin.com/in/fernando-lareu/" target="_blank">linkedin.com/in/fernando-lareu/</a>
+  </div> -->
+
+</footer>
