@@ -15,7 +15,7 @@ Los lenguajes utilizados fueron:
 <table>
     <tbody>
         <tr>
-            <td><img src="https://raw.githubusercontent.com/1caruxx/Final_laboratorio_y_programacion_III/master/Z._img/vs.ico" width="20px" height="20px"/></td>
+            <td><img src="./src/assets/img/visual.png" width="20px" height="20px"/></td>
             <td><a href="https://code.visualstudio.com/">Visual Studio Code</a></td>
         </tr>
         <tr>
@@ -31,4 +31,4 @@ Los lenguajes utilizados fueron:
 
 ## Autor
 
-* Fernando Lareu - [FHLareu](https://github.com/1caruxx)
+* Fernando Lareu - [FHLareu](https://github.com/FHLareu)
